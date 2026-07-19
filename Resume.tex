@@ -1,0 +1,75 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+
+\definecolor{accent}{HTML}{2774AE}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{-6pt}\color{accent}\titlerule[2pt]\vspace{4pt}]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\newcommand{\entry}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=1pt, topsep=2pt}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{22}{24}\selectfont\bfseries Elijah Ang}\\[4pt]
+  \small eang0521@gmail.com \; $\bullet$ \; (925) 266-0416 \; $\bullet$ \; Concord, CA \; $\bullet$ \; www.elijahang.com
+\end{center}
+
+\vspace{6pt}
+
+\section*{Education}
+\entry{University of California, Los Angeles}{Sep 2024 -- Mar 2026}{Bachelor of Science, Statistics \& Data Science --- GPA 3.6}
+\small Relevant coursework: Linear Models, Monte Carlo Methods, Statistics in Finance, Geostatistics, Causality
+
+\section*{Experience}
+
+\entry{Data Detectives --- Remote}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\begin{itemize}
+  \item Built automated data pipelines in Python to clean and transform Bay Area housing datasets for predictive modeling
+  \item Generated synthetic training datasets using the SDV library to augment model performance
+  \item Key lesson: data is everywhere --- models are critical to help us draw insights and make decisions from it
+\end{itemize}
+
+\entry{Awe \& Reverence --- Remote}{Jun 2023 -- Aug 2023}{Software Apprentice}
+\begin{itemize}
+  \item Built full-stack websites, gaining experience with React, MySQL, and other common tools
+  \item Key lesson: good communication and solid coding practices are the cornerstones of the tech world
+\end{itemize}
+
+\entry{Rooted Software --- Concord, CA (Hybrid)}{May 2022 -- Aug 2022}{Information Technology Intern}
+\begin{itemize}
+  \item Developed mobile applications for a church with 1,000+ members
+  \item Configured hardware for a private K-8 school with 400+ students
+  \item Key lesson: skills are most valuable when used to effect real, meaningful change
+\end{itemize}
+
+\entry{Chick-fil-A --- Walnut Creek, CA}{Mar 2022 -- Aug 2022}{Front of House}
+\begin{itemize}
+  \item Took and fulfilled orders for 100+ guests per shift
+  \item Demonstrated leadership and communication in a professional environment
+  \item Key lesson: high agency and dedicated drive can make a big difference in any working environment
+\end{itemize}
+
+\section*{Projects}
+\textbf{Bay Area Housing AVM} --- Scrapes data from online listings to build a predictive model of Bay Area home values; using simple, publicly available data, achieves a model explaining more than 86\% of the variance in home prices.\\[4pt]
+\textbf{NBA Game Simulator} --- A dice-based basketball game simulation using real NBA stats from the 2025--26 season; uses Python to generate play-by-play logs and final box scores.
+
+\section*{Skills}
+\textbf{Industry:} AI Fluency, Data Analysis, Probability Theory, Microsoft Excel, R, Python, SQL\\
+\textbf{Interpersonal:} Leadership, Communication, Administration
+
+\end{document}
