@@ -6,7 +6,7 @@ $watcher.NotifyFilter = [System.IO.NotifyFilters]::LastWrite
 $watcher.EnableRaisingEvents = $true
 
 function Build {
-    Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Change detected — compiling..."
+    Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Change detected -> compiling..."
     Push-Location $dir
     xelatex -interaction=nonstopmode $tex | Out-Null
     xelatex -interaction=nonstopmode $tex | Out-Null
