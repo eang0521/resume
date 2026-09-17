@@ -1,0 +1,63 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[top=0.55in,bottom=0.55in,left=0.65in,right=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+
+\definecolor{accent}{HTML}{2774AE}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{0pt}\color{accent}{\titlerule[2pt]}\vspace{2pt}]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\newcommand{\entry}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\newcommand{\examentry}[2]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\[1pt]
+}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=0pt, topsep=1pt}
+
+\begin{document}
+
+\input{partials/contact}
+
+\vspace{4pt}
+
+\input{partials/education}
+
+\section*{Exams}
+\examentry{SOA P Exam (Passed)}{January 2026}
+\examentry{SOA FM Exam (Passed)}{August 2026}
+
+\section*{Experience}
+
+\entry{Data Detectives --- Remote}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\begin{itemize}
+  \item Designed and built automated ETL pipelines in Python to ingest, clean, validate, and transform Bay Area housing data from multiple sources for predictive modeling
+  \item Implemented data quality and enrichment processes, generating synthetic training datasets using the SDV library to augment model performance
+  \item Key lesson: data is everywhere --- models are critical to help us draw insights and make decisions from it
+\end{itemize}
+
+\input{partials/experience-static}
+
+\section*{Projects}
+\textbf{Bay Area Housing AVM} --- Built an end-to-end data pipeline that scrapes, cleans, and consolidates online listing data, then loads it into a predictive model of Bay Area home values; using simple, publicly available data, achieves a model explaining more than 86\% of the variance in home prices.\\[4pt]
+\textbf{NBA Game Simulator} --- Built a Python pipeline that scrapes real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball game simulation, capable of simulating both individual games and full seasons with play-by-play logs and final box scores.
+
+\section*{Skills}
+\textbf{Industry:} AI Fluency, Data Analysis, Probability Theory, Microsoft Excel, R, Python, SQL\\
+\textbf{Interpersonal:} Leadership, Communication, Administration
+
+\end{document}
