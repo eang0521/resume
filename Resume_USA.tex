@@ -24,8 +24,9 @@
 
 \newcommand{\jobentry}[4]{%
   \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
-  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\\#4\end{minipage}\\
-  \textit{#3}\par\vspace{2pt}
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \begin{minipage}[t]{0.72\textwidth}\raggedright\textit{#3}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#4\end{minipage}\par\vspace{2pt}
 }
 
 \setlist[itemize]{leftmargin=16pt, itemsep=1pt, topsep=2pt}
