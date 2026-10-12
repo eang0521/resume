@@ -1,0 +1,81 @@
+# Elijah Ang — Master Profile
+
+Single source of truth for tailoring resumes and cover letters. Tailor only from facts in this file.
+If a job asks for something not listed here, do not claim it: flag it for Elijah to confirm.
+
+## Contact
+- Email: eang0521@gmail.com
+- LinkedIn: linkedin.com/in/elijah-p-ang
+- GitHub: github.com/eang0521
+- Site: elijahang.com
+- (No phone or city on resumes, by choice.)
+
+## Education
+- University of California, Los Angeles — B.S., Statistics & Data Science, Sep 2024 – Mar 2026, GPA 3.6
+- Relevant coursework: Linear Models, Monte Carlo Methods, Statistics in Finance, Geostatistics, Causality
+
+## Exams
+- SOA Exam P (Probability) — passed January 2026
+- SOA Exam FM (Financial Mathematics) — passed August 2026
+
+## Experience
+
+### Data Detectives — Remote — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
+- Built automated Python pipelines to ingest, clean, validate, and transform Bay Area housing data from multiple sources for predictive modeling
+- Generated synthetic training datasets with the SDV (Synthetic Data Vault) library to augment model performance
+- Trained a random forest regression model to predict home values from the cleaned dataset
+- Context: started with a small hand-entered dataset (15 homes from Redfin) to build and test pipelines, then a simple model.
+
+### Awe & Reverence — Remote — Software Apprentice (Jun 2023 – Aug 2023, 20 hrs/week)
+- Built full-stack websites using React, MySQL, and other common tools
+- Partnered directly with the founder to scope, build, and ship features on tight timelines
+
+### Rooted Software — Concord, CA (Hybrid) — Information Technology Intern (May 2022 – Aug 2022, 20 hrs/week)
+- Developed mobile applications using React Native for a church with 1,000+ members
+- Configured hardware for a private K-8 school with 400+ students
+
+### Chick-fil-A — Walnut Creek, CA — Front of House (Mar 2022 – Aug 2022, 20 hrs/week)
+- Took and fulfilled orders for 100+ guests per shift
+- Demonstrated leadership and communication in a professional environment
+- Maintained accuracy and speed while managing multiple simultaneous orders during high-volume rush periods
+
+## Projects (details at elijahang.com/projects)
+- **City of Berkeley Budget Data** — interactive Tableau dashboards on the City of Berkeley's municipal budget, 2012–2015; makes spending easy to browse and compare. Best fit for government, public-sector, finance, and analyst roles.
+- **NBA Game Simulator** — Python pipeline that scrapes and processes real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation; simulates single games and full 82-game seasons with play-by-play logs, box scores, standings, and playoff seeding; live demo. Started as a pen-and-paper dice game at age 8–9.
+- **Quick Draw** — full-stack tournament bracket tool (Next.js, TypeScript, Supabase) supporting single-elimination, double-elimination, round robin, and swiss formats; live demo.
+- **CFB Dynasty Sim** — ported a spreadsheet-based college football recruiting and aging engine into a web app (TypeScript, Next.js); supports a 72-team league and a 144-team mega-league with save slots; live demo.
+- **Space Trader** — online version of a board game designed at age 14 (Next.js). Low priority for professional resumes.
+- **Pokémon Roll & Roam** — roll-and-move board game for the web (JavaScript). Low priority for professional resumes.
+
+## Skills (OK to claim)
+- Languages/tools: Python, R, SQL, Microsoft Excel, Word, Copilot, Tableau, Git/GitHub
+- Web: React, React Native, Next.js, TypeScript, MySQL, Supabase
+- Methods: statistical analysis, probability theory, linear models, Monte Carlo simulation, regression/random forest modeling, data cleaning and validation, ETL pipelines, synthetic data generation (SDV), data visualization
+- General: AI fluency (uses AI tools such as Copilot), remote collaboration, written and verbal communication
+
+## Not claimed (gaps — never add without Elijah's confirmation)
+- SAS, psychometrics / item or test analysis, C#, Java
+- Cloud platforms (AWS/GCP/Azure), Airflow, dbt, Spark, Docker
+- VBA, SharePoint
+- Any full-time experience; all roles above are internships, apprenticeships, or part-time
+
+## Do NOT use
+- **Contra Costa County / Bay Area Housing AVM project** (3,000+ scraped Realtor.com listings, "86% of variance"): removed because Realtor.com's terms prohibit scraping. Do not put it on any resume or letter.
+- NBA Game Simulator scrapes third-party stats; its source's terms have not been checked. Keep wording factual.
+
+## Resume variants (repo root)
+| File | Use for | Notes |
+|---|---|---|
+| Resume.tex | General / software-leaning | Base layout |
+| Resume_DE.tex | Data engineering | ETL/pipeline emphasis |
+| Resume_Actuary.tex | Actuarial | Adds Exams section; tight spacing; Berkeley + NBA + Quick Draw projects |
+| Resume_USA.tex | US federal (USAJOBS) | Hours/week per job via `\jobentry`; Exams; Berkeley-led projects |
+| Resume_Pearson.tex | Example of a job-specific tailored resume | Actuary layout |
+
+Shared blocks live in `partials/` (contact, education, experience-static, projects). All resumes must fit on one page.
+
+## Style preferences
+- Resume bullets: accomplishment-focused; no reflective "key lesson" lines.
+- Cover letters: short (about 200–250 words), emphasize strengths, do not mention weaknesses or gaps.
+- Fit analysis (private, not for employers): be honest about gaps.
+- Never submit an application, send a message, or create an account on Elijah's behalf.
