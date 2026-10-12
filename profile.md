@@ -59,7 +59,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - **Pokémon Roll & Roam** — roll-and-move board game for the web (JavaScript). Low priority for professional resumes.
 
 ## Skills (OK to claim)
-- Languages/tools: Python, R, SQL, Microsoft Excel, Word, Copilot, Tableau, Git/GitHub
+- Languages/tools: Python, R, SQL, Microsoft Excel, Word, PowerPoint, Copilot, Tableau, Git/GitHub
 - Web: React, React Native, Next.js, TypeScript, MySQL, Supabase
 - Methods: statistical analysis, probability theory, linear models, Monte Carlo simulation, regression/random forest modeling, data cleaning and validation, ETL pipelines, synthetic data generation (SDV), data visualization
 - General: AI fluency (uses AI tools such as Copilot), remote collaboration, written and verbal communication
