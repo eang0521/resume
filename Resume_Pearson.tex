@@ -1,0 +1,63 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[top=0.55in,bottom=0.55in,left=0.65in,right=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+
+\definecolor{accent}{HTML}{2774AE}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{0pt}\color{accent}{\titlerule[2pt]}\vspace{2pt}]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\newcommand{\entry}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\newcommand{\examentry}[2]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\[1pt]
+}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=0pt, topsep=1pt}
+
+\begin{document}
+
+\input{partials/contact}
+
+\vspace{4pt}
+
+\input{partials/education}
+
+\section*{Exams}
+\examentry{SOA P Exam (Passed)}{January 2026}
+\examentry{SOA FM Exam (Passed)}{August 2026}
+
+\section*{Experience}
+
+\entry{Data Detectives --- Remote}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\begin{itemize}
+  \item Built automated Python pipelines to ingest, clean, validate, and transform Bay Area housing data from multiple sources, evaluating its suitability for predictive modeling
+  \item Generated synthetic training datasets using the SDV library to augment model performance
+  \item Trained and evaluated a random forest regression model to predict home values from the cleaned housing dataset
+\end{itemize}
+
+\input{partials/experience-static}
+
+\section*{Projects}
+\textbf{City of Berkeley Budget Data} --- Analyzed several years of municipal budget data and built interactive Tableau dashboards that make spending easy to summarize, browse, and compare.\\[4pt]
+\textbf{NBA Game Simulator} --- Built a Python pipeline that scrapes and structures real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation, generating play-by-play logs and box scores for individual games and full seasons.\\[4pt]
+\textbf{Quick Draw} --- Built a full-stack tournament bracket tool with Next.js, TypeScript, and Supabase, version-controlled on GitHub, to organize and run single-elimination, double-elimination, round robin, and swiss format competitions.
+
+\section*{Skills}
+\textbf{Skills:} Python, R, SQL, Microsoft Excel, Word, Copilot, Statistical Analysis, Data Cleaning \& Validation, Probability Theory, Git/GitHub, AI Fluency
+
+\end{document}
