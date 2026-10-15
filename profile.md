@@ -34,7 +34,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 ### Minthril — Independent Consultant (Sep 2026 – Present)
 - Part-time, temporary engagement (10 hrs/week) with one client
 - Provided supply chain consulting services for a large manufacturing company
-- Streamlined production plans with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90% (multiple days to one click)
+- Streamlined production plans with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90%
 - Location intentionally omitted on resumes. Resume_USA.tex lists 10 hrs/week.
 
 ### Data Detectives — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
