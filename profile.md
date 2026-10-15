@@ -32,9 +32,10 @@ Use for matching a posting's required methods or "evidence of success in quantit
 ## Experience
 
 ### Minthril — Independent Consultant (Sep 2026 – Present)
+- Part-time, temporary engagement (10 hrs/week) with one client
 - Provided supply chain consulting services for a large manufacturing company
-- Streamlined production plans using Microsoft Excel pivot tables and VBA, cutting processing time by 90%
-- (Hours/week and location not provided; location intentionally omitted on resumes.)
+- Streamlined production plans with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90% (multiple days to one click)
+- Location intentionally omitted on resumes. Resume_USA.tex lists 10 hrs/week.
 
 ### Data Detectives — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
 - Built automated Python pipelines to ingest, clean, validate, and transform Bay Area housing data from multiple sources for predictive modeling
@@ -64,7 +65,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - **Pokémon Roll & Roam** — roll-and-move board game for the web (JavaScript). Low priority for professional resumes.
 
 ## Skills (OK to claim)
-- Languages/tools: Python, R, SQL, Microsoft Excel (pivot tables, VBA), Word, PowerPoint, Copilot, Tableau, Git/GitHub
+- Languages/tools: Python, R, SQL, Microsoft Excel (pivot tables, VBA macros, dashboards), Word, PowerPoint, Copilot, Tableau, Git/GitHub
 - Web: React, React Native, Next.js, TypeScript, MySQL, Supabase
 - Methods: statistical analysis, probability theory, linear models, Monte Carlo simulation, regression/random forest modeling, data cleaning and validation, ETL pipelines, synthetic data generation (SDV), data visualization
 - General: AI fluency (uses AI tools such as Copilot), remote collaboration, written and verbal communication
