@@ -31,13 +31,18 @@ Use for matching a posting's required methods or "evidence of success in quantit
 
 ## Experience
 
-### Data Detectives — Remote — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
+### Minthril — Independent Consultant (Sep 2026 – Present)
+- Provided supply chain consulting services for a large manufacturing company
+- Streamlined production plans using Microsoft Excel pivot tables and VBA, cutting processing time by 90%
+- (Hours/week and location not provided; location intentionally omitted on resumes.)
+
+### Data Detectives — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
 - Built automated Python pipelines to ingest, clean, validate, and transform Bay Area housing data from multiple sources for predictive modeling
 - Generated synthetic training datasets with the SDV (Synthetic Data Vault) library to augment model performance
 - Trained a random forest regression model to predict home values from the cleaned dataset
 - Context: started with a small hand-entered dataset (15 homes from Redfin) to build and test pipelines, then a simple model.
 
-### Awe & Reverence — Remote — Software Apprentice (Jun 2023 – Aug 2023, 20 hrs/week)
+### Awe & Reverence — Software Apprentice (Jun 2023 – Aug 2023, 20 hrs/week)
 - Built full-stack websites using React, MySQL, and other common tools
 - Partnered directly with the founder to scope, build, and ship features on tight timelines
 
@@ -59,7 +64,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - **Pokémon Roll & Roam** — roll-and-move board game for the web (JavaScript). Low priority for professional resumes.
 
 ## Skills (OK to claim)
-- Languages/tools: Python, R, SQL, Microsoft Excel, Word, PowerPoint, Copilot, Tableau, Git/GitHub
+- Languages/tools: Python, R, SQL, Microsoft Excel (pivot tables, VBA), Word, PowerPoint, Copilot, Tableau, Git/GitHub
 - Web: React, React Native, Next.js, TypeScript, MySQL, Supabase
 - Methods: statistical analysis, probability theory, linear models, Monte Carlo simulation, regression/random forest modeling, data cleaning and validation, ETL pipelines, synthetic data generation (SDV), data visualization
 - General: AI fluency (uses AI tools such as Copilot), remote collaboration, written and verbal communication
@@ -67,8 +72,8 @@ Use for matching a posting's required methods or "evidence of success in quantit
 ## Not claimed (gaps — never add without Elijah's confirmation)
 - SAS, psychometrics / item or test analysis, C#, Java
 - Cloud platforms (AWS/GCP/Azure), Airflow, dbt, Spark, Docker
-- VBA, SharePoint
-- Any full-time experience; all roles above are internships, apprenticeships, or part-time
+- SharePoint, Access
+- Any full-time employment; roles other than Minthril (independent consulting) are internships, apprenticeships, or part-time
 
 ## Do NOT use
 - **Contra Costa County / Bay Area Housing AVM project** (3,000+ scraped Realtor.com listings, "86% of variance"): removed because Realtor.com's terms prohibit scraping. Do not put it on any resume or letter.
@@ -83,10 +88,12 @@ Use for matching a posting's required methods or "evidence of success in quantit
 | Resume_USA.tex | US federal (USAJOBS) | Hours/week per job via `\jobentry`; Exams; Berkeley-led projects |
 | Resume_Pearson.tex | Example of a job-specific tailored resume | Actuary layout |
 
-Shared blocks live in `partials/` (contact, education, experience-static, projects). All resumes must fit on one page.
+Shared blocks live in `partials/` (contact, education, experience-minthril, experience-static, projects). Resume_USA.tex has the Minthril entry inline (needs hours/week). All resumes must fit on one page.
 
 ## Style preferences
 - Resume bullets: accomplishment-focused; no reflective "key lesson" lines.
 - Cover letters: short (about 200–250 words), emphasize strengths, do not mention weaknesses or gaps.
 - Fit analysis (private, not for employers): be honest about gaps.
 - Never submit an application, send a message, or create an account on Elijah's behalf.
+
+- Do not list "Remote" as a location on resumes for roles with no physical location (Elijah's preference).
