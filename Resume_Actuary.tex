@@ -1,5 +1,5 @@
 \documentclass[11pt,letterpaper]{article}
-\usepackage[top=0.55in,bottom=0.55in,left=0.65in,right=0.65in]{geometry}
+\usepackage[top=0.45in,bottom=0.45in,left=0.65in,right=0.65in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -14,7 +14,7 @@
 \pagestyle{empty}
 
 \titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{0pt}\color{accent}{\titlerule[2pt]}\vspace{2pt}]
-\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
 
 \newcommand{\entry}[3]{%
   \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
@@ -43,7 +43,9 @@
 
 \section*{Experience}
 
-\entry{Data Detectives --- Remote}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\input{partials/experience-minthril}
+
+\entry{Data Detectives}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
 \begin{itemize}
   \item Designed and built automated ETL pipelines in Python to ingest, clean, validate, and transform Bay Area housing data from multiple sources for predictive modeling
   \item Implemented data quality and enrichment processes, generating synthetic training datasets using the SDV library to augment model performance
@@ -58,6 +60,6 @@
 \textbf{Quick Draw} --- Built a full-stack tournament bracket tool with Next.js, TypeScript, and Supabase to organize and run single-elimination, double-elimination, round robin, and swiss format competitions.
 
 \section*{Skills}
-\textbf{Skills:} Probability Theory, Microsoft Excel, R, Data Analysis, SQL, Python, AI Fluency
+\textbf{Skills:} Probability Theory, Microsoft Excel (Pivot Tables, VBA), R, Data Analysis, SQL, Python, AI Fluency
 
 \end{document}
