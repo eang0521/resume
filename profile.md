@@ -42,6 +42,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - Generated synthetic training datasets with the SDV (Synthetic Data Vault) library to augment model performance
 - Trained a random forest regression model to predict home values from the cleaned dataset
 - Context: started with a small hand-entered dataset (15 homes from Redfin) to build and test pipelines, then a simple model.
+- Continued after the internship as the Bay Area home price model: predictive model using 9,000+ homes and 18 features, explaining more than 87% of the variance in home prices in select Bay Area cities (per Elijah, Oct 2026). Unconfirmed: whether measured on held-out data, and whether any of the 9,000 are synthetic. Used only on the PG&E resume, framed as an internship project continued afterward; no data source named.
 
 ### Awe & Reverence — Software Apprentice (Jun 2023 – Aug 2023, 20 hrs/week)
 - Built full-stack websites using React, MySQL, and other common tools
@@ -57,7 +58,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - Maintained accuracy and speed while managing multiple simultaneous orders during high-volume rush periods
 
 ## Projects (details at elijahang.com/projects)
-- **City of Berkeley Budget Data** — interactive Tableau dashboards on the City of Berkeley's municipal budget, 2012–2015; makes spending easy to browse and compare. Best fit for government, public-sector, finance, and analyst roles.
+- **City of Berkeley Budget Data** — condensed 47,000+ rows of the City of Berkeley's municipal budget (2012–2015) into 7 interactive Tableau dashboards; makes spending easy to browse and compare. Best fit for government, public-sector, finance, and analyst roles.
 - **NBA Game Simulator** — Python pipeline that scrapes and processes real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation; simulates single games and full 82-game seasons with play-by-play logs, box scores, standings, and playoff seeding; live demo. Started as a pen-and-paper dice game at age 8–9.
 - **Quick Draw** — full-stack tournament bracket tool (Next.js, TypeScript, Supabase) supporting single-elimination, double-elimination, round robin, and swiss formats; live demo.
 - **CFB Dynasty Sim** — ported a spreadsheet-based college football recruiting and aging engine into a web app (TypeScript, Next.js); supports a 72-team league and a 144-team mega-league with save slots; live demo.
@@ -77,6 +78,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - Any full-time employment; roles other than Minthril (independent consulting) are internships, apprenticeships, or part-time
 
 ## Do NOT use
+- **Exception (Elijah's decision, Oct 2026):** the PG&E resume and letter use the home price model (87% of variance, 9,000+ homes, 18 features), framed as a continuation of the Data Detectives internship. Do not name Realtor.com or say "scraped", and do not reuse elsewhere without asking.
 - **Contra Costa County / Bay Area Housing AVM project** (3,000+ scraped Realtor.com listings, "86% of variance"): removed because Realtor.com's terms prohibit scraping. Do not put it on any resume or letter.
 - NBA Game Simulator scrapes third-party stats; its source's terms have not been checked. Keep wording factual.
 

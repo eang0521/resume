@@ -6,7 +6,7 @@
 | Requirement | Status | Evidence |
 |---|---|---|
 | BA/BS in Marketing, Business, CS, Engineering, or related field (or equivalent experience) | Met | B.S. Statistics & Data Science, UCLA, 3.6 GPA; "related field" is a reasonable read for a data role |
-| 2 years of related work experience | Gap / Partial | Data Detectives (10 hrs/wk, summer 2025), Awe & Reverence (summer 2023), Rooted Software (summer 2022) are all internships, apprenticeships, or part-time. The posting allows "equivalent work experience," but total related time is well under 2 years |
+| 2 years of related work experience | Gap / Partial | Minthril (part-time independent consulting, 10 hrs/wk, since Sep 2026), Data Detectives (10 hrs/wk, summer 2025, then continued as a project), Awe & Reverence (summer 2023), Rooted Software (summer 2022) are all part-time, internships, or apprenticeships. The posting allows "equivalent work experience," but total related time is still under 2 years |
 
 ## Responsibilities
 | Duty | Status | Evidence |
@@ -26,11 +26,17 @@
 | Desired | Status | Note |
 |---|---|---|
 | Familiarity with utility operations | Gap | None |
-| Excel/Access (complex formulas, graphing, VBA) | Partial | Excel yes; Access and VBA not claimed |
+| Excel/Access (complex formulas, graphing, VBA) | Partial | Excel pivot tables, VBA macros, and dashboards at Minthril; Access not claimed |
 | SQL on Oracle or Business Objects | Partial | SQL yes; Oracle/Business Objects not claimed |
 | UNIX shell (csh, awk, sed, vi) | Gap | Not claimed |
 | Base-SAS, Visual Basic, Perl, C | Gap | Not claimed (Python, R, TypeScript instead) |
 | Analyze, interpret, communicate findings | Met | Coursework, Data Detectives, Berkeley dashboards |
+
+## Resume format (Problem / Solution / Impact)
+The PG&E resume and letter were restructured at PG&E's suggestion into three stories: Minthril (90% processing-time cut), the Bay Area home price model (87%+ of variance, 9,000+ homes, 18 features), and the Berkeley dashboards (47,000+ rows into 7 dashboards). Caveats:
+- The home price model is framed as a Data Detectives internship project continued afterward. Be ready to explain the timeline, the data source (without overclaiming), and how the 87% was measured (held-out vs. training data); confirm before the interview.
+- Realtor.com's terms prohibit scraping. Your profile previously barred this project for that reason; you chose to include it here. The resume does not name a source.
+- Berkeley is a personal/portfolio project, so the "impact" is qualitative.
 
 ## Gaps and how to address them honestly
 - **2-year minimum:** Do not inflate. The letter leaves it out; the resume lists every role truthfully. Your argument is "equivalent work experience" plus the four internships/projects. Expect an ATS or recruiter screen to be the main risk; a referral or direct message to the hiring manager could help (you would send it yourself).
