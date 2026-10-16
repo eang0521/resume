@@ -9,6 +9,7 @@ If a job asks for something not listed here, do not claim it: flag it for Elijah
 - GitHub: github.com/eang0521
 - Site: elijahang.com
 - (No phone or city on resumes, by choice.)
+- Personal background (OK to use in cover letters): Concord, CA resident; born and raised in the Bay Area; PG&E is his primary gas and electric provider; has built charts and dashboards in Excel since before middle school. Named Concord in the PG&E letter by choice.
 
 ## Education
 - University of California, Los Angeles — B.S., Statistics & Data Science, Sep 2024 – Mar 2026, GPA 3.6

@@ -47,7 +47,7 @@ Per PG&E's suggestion, the resume highlights three stories (the headers "Problem
 
 ## Role and comp notes
 - **Salary:** $90K–$136K (midpoint $113K); the posting says hires land toward the middle or entry point. That is well above the HSAG range ($70–75K), which signals a role that expects some prior experience.
-- **Hybrid:** Oakland General Office, 2–3 days per week in office. Check commute or relocation from where you live; your profile lists no city.
+- **Hybrid:** Oakland General Office, 2–3 days per week in office. Elijah is a Concord, CA resident, so the Oakland office is a commutable distance.
 - **Deadline:** Not listed; apply early.
 - **Levels:** PG&E has Senior, Principal, and Expert versions of this role. The one posted here is the entry-level track.
 - **Company context (from the posting only):** The Reliability Strategy team sits in Electric T&D Engineering and integrates current reliability performance, predictive analytics, target forecasts, and the project portfolio. A predictive-analytics angle (your random forest and modeling work) is the best story to tell.
