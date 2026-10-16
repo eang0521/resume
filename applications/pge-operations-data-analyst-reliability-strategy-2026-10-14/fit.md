@@ -6,7 +6,7 @@
 | Requirement | Status | Evidence |
 |---|---|---|
 | BA/BS in Marketing, Business, CS, Engineering, or related field (or equivalent experience) | Met | B.S. Statistics & Data Science, UCLA, 3.6 GPA; "related field" is a reasonable read for a data role |
-| 2 years of related work experience | Gap / Partial | Minthril (part-time independent consulting, 10 hrs/wk, since Sep 2026), Data Detectives (10 hrs/wk, summer 2025, then continued as a project), Awe & Reverence (summer 2023), Rooted Software (summer 2022) are all part-time, internships, or apprenticeships. The posting allows "equivalent work experience," but total related time is still under 2 years |
+| 2 years of related work experience | Gap / Partial | Minthril (independent consulting, 10 hrs/wk, since Sep 2026), Data Detectives (10 hrs/wk, summer 2025, then continued as a project), Awe & Reverence (summer 2023), Rooted Software (summer 2022) are all part-time, internships, or apprenticeships. The posting allows "equivalent work experience," but total related time is still under 2 years |
 
 ## Responsibilities
 | Duty | Status | Evidence |
@@ -32,10 +32,11 @@
 | Base-SAS, Visual Basic, Perl, C | Gap | Not claimed (Python, R, TypeScript instead) |
 | Analyze, interpret, communicate findings | Met | Coursework, Data Detectives, Berkeley dashboards |
 
-## Resume format (Problem / Solution / Impact)
-The PG&E resume and letter were restructured at PG&E's suggestion into three stories: Minthril (90% processing-time cut), the Bay Area home price model (87%+ of variance, 9,000+ homes, 18 features), and the Berkeley dashboards (47,000+ rows into 7 dashboards). Caveats:
-- The home price model is framed as a Data Detectives internship project continued afterward. Be ready to explain the timeline, the data source (without overclaiming), and how the 87% was measured (held-out vs. training data); confirm before the interview.
+## Resume format
+Per PG&E's suggestion, the resume highlights three stories (the headers "Problem / Solution / Impact" are not used literally; each story is three succinct bullets covering those points): Minthril (90% processing-time cut), Data Detectives and the continued home price model (87%+ of variance, 9,000+ homes, 18 features), and the City of Berkeley dashboards (47,000+ rows into 7 dashboards). The highlighted entries have an accent-colored title and three bullets each; older roles have one bullet each. Exams were removed. Caveats:
+- The home price model is framed as continued after the Data Detectives internship. Be ready to explain the timeline, the data source (without overclaiming), and how the 87% was measured (held-out vs. training data); confirm before the interview.
 - Realtor.com's terms prohibit scraping. Your profile previously barred this project for that reason; you chose to include it here. The resume does not name a source.
+- Minthril's hours (10 hrs/week, part-time) are intentionally not on this resume or letter.
 - Berkeley is a personal/portfolio project, so the "impact" is qualitative.
 
 ## Gaps and how to address them honestly

@@ -22,6 +22,12 @@
   \textit{#3}\par\vspace{2pt}
 }
 
+\newcommand{\entryhl}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{\color{accent}#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
 \newcommand{\examentry}[2]{%
   \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
   \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\[1pt]
@@ -39,35 +45,48 @@
 \entry{University of California, Los Angeles}{Sep 2024 -- Mar 2026}{Bachelor of Science, Statistics \& Data Science --- GPA 3.6}
 \small Relevant coursework: Linear Models, Statistical Models and Data Mining, Design and Analysis of Experiments, Monte Carlo Methods, Causality
 
-\section*{Exams}
-\examentry{SOA P Exam (Passed)}{January 2026}
-\examentry{SOA FM Exam (Passed)}{August 2026}
+\section*{Experience}
 
-\section*{Selected Experience}
-
-\entry{Minthril}{Sep 2026 -- Present}{Independent Consultant (part-time, 10 hrs/week)}
+\entryhl{Minthril}{Sep 2026 -- Present}{Independent Consultant}
 \begin{itemize}
-  \item \textbf{Problem:} A large manufacturing company's production plans were time-consuming to process
-  \item \textbf{Solution:} Streamlined the process with Microsoft Excel pivot tables, VBA macros, and dashboards
-  \item \textbf{Impact:} Cut processing time by 90\%
+  \item Provided supply chain consulting for a large manufacturing company whose production plans were time-consuming to process
+  \item Built Microsoft Excel pivot tables, VBA macros, and dashboards to streamline the planning workflow
+  \item Cut processing time by 90\%
 \end{itemize}
 
-\entry{Bay Area Home Price Model}{Began Jun 2025}{Data Detectives internship project, continued afterward}
+\entryhl{Data Detectives}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
 \begin{itemize}
-  \item \textbf{Problem:} Bay Area housing data came from multiple sources and had to be cleaned and validated before it could support price prediction
-  \item \textbf{Solution:} Built automated Python pipelines to ingest, clean, validate, and transform the data, then developed a predictive model using 9,000+ homes and 18 features
-  \item \textbf{Impact:} The model explains more than 87\% of the variance in home prices in select Bay Area cities
+  \item Built automated Python pipelines to ingest, clean, validate, and transform multi-source Bay Area housing data for predictive modeling
+  \item Continued the work after the internship, developing a predictive model on 9,000+ homes and 18 features
+  \item Model explains more than 87\% of the variance in home prices in select Bay Area cities
 \end{itemize}
 
-\entry{City of Berkeley Budget Data}{Project}{Interactive Tableau dashboards on 2012--2015 municipal budget data}
+\entry{Awe \& Reverence}{Jun 2023 -- Aug 2023}{Software Apprentice}
 \begin{itemize}
-  \item \textbf{Problem:} Over 47,000 rows of municipal budget data were hard to browse and compare
-  \item \textbf{Solution:} Built interactive Tableau dashboards that organize the data for a general audience
-  \item \textbf{Impact:} Condensed the data into 7 simple dashboards, making spending easy to browse and compare
+  \item Built full-stack websites with React and MySQL, partnering directly with the founder to scope and ship features on tight timelines
 \end{itemize}
 
-\section*{Earlier Experience}
-\textbf{Awe \& Reverence}, Software Apprentice (Jun--Aug 2023); \textbf{Rooted Software}, Information Technology Intern, Concord, CA (May--Aug 2022); \textbf{Chick-fil-A}, Front of House, Walnut Creek, CA (Mar--Aug 2022)
+\entry{Rooted Software --- Concord, CA (Hybrid)}{May 2022 -- Aug 2022}{Information Technology Intern}
+\begin{itemize}
+  \item Developed React Native mobile apps for a church with 1,000+ members and configured hardware for a K-8 school with 400+ students
+\end{itemize}
+
+\entry{Chick-fil-A --- Walnut Creek, CA}{Mar 2022 -- Aug 2022}{Front of House}
+\begin{itemize}
+  \item Took and fulfilled orders for 100+ guests per shift while maintaining accuracy and speed during high-volume rush periods
+\end{itemize}
+
+\section*{Projects}
+
+\entryhl{City of Berkeley Budget Data}{Tableau}{Interactive dashboards on 2012--2015 municipal budget data}
+\begin{itemize}
+  \item Started with 47,000+ rows of municipal budget data that were hard to browse and compare
+  \item Built interactive Tableau dashboards that organize the data for a general audience
+  \item Condensed the data into 7 simple dashboards that make spending easy to browse and compare
+\end{itemize}
+
+\noindent\textbf{NBA Game Simulator} --- Built a Python pipeline that collects and processes real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation, producing play-by-play logs, box scores, and season standings.\\[4pt]
+\textbf{Quick Draw} --- Built a full-stack, database-backed tournament bracket tool with Next.js, TypeScript, and Supabase to organize and run single-elimination, double-elimination, round robin, and swiss format competitions.
 
 \section*{Skills}
 \textbf{Skills:} Python, SQL, R, Microsoft Excel (Pivot Tables, VBA), Tableau, ETL Pipelines, Data Cleaning \& Validation, Statistical Analysis, Data Visualization, MySQL, Git/GitHub, AI Fluency
