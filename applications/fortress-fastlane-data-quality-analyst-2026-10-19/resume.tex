@@ -1,0 +1,73 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[top=0.55in,bottom=0.55in,left=0.65in,right=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+
+\definecolor{accent}{HTML}{2774AE}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{0pt}\color{accent}{\titlerule[2pt]}\vspace{2pt}]
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+
+\newcommand{\entry}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=0pt, topsep=1pt}
+
+\begin{document}
+
+\input{../../partials/contact}
+
+\vspace{4pt}
+
+\section*{Education}
+\entry{University of California, Los Angeles}{Sep 2024 -- Mar 2026}{Bachelor of Science, Statistics \& Data Science --- GPA 3.6}
+\small Relevant coursework: Linear Models, Statistical Models and Data Mining, Design and Analysis of Experiments, Monte Carlo Methods, Statistics in Finance
+
+\section*{Experience}
+
+\entry{Minthril}{Sep 2026 -- Present}{Independent Consultant}
+\begin{itemize}
+  \item Provided part-time, client-facing supply chain consulting services for a large manufacturing company
+  \item Assessed risks of delays and built alert systems for the client
+  \item Streamlined production plans with Microsoft Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90\%
+\end{itemize}
+
+\entry{Data Detectives}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\begin{itemize}
+  \item Built automated Python pipelines to ingest, clean, validate, and standardize housing data from multiple sources, ensuring the data was accurate and analysis-ready for predictive modeling
+  \item Started with a small hand-entered dataset to build and test the validation pipelines before applying them to multiple data sources
+  \item Generated synthetic training datasets using the SDV library and trained a random forest regression model to predict home values from the cleaned dataset
+\end{itemize}
+
+\entry{Awe \& Reverence}{Jun 2023 -- Aug 2023}{Software Apprentice}
+\begin{itemize}
+  \item Partnered directly with the founder to scope, build, and ship features on tight timelines
+  \item Built full-stack websites using React, MySQL, and other common tools
+\end{itemize}
+
+\entry{Rooted Software --- Concord, CA (Hybrid)}{May 2022 -- Aug 2022}{Information Technology Intern}
+\begin{itemize}
+  \item Developed mobile applications using React Native for a church with 1,000+ members
+  \item Configured hardware for a private K-8 school with 400+ students
+\end{itemize}
+
+\section*{Projects}
+\textbf{City of Berkeley Budget Data} --- Built interactive Tableau dashboards on several years of municipal budget data, making spending easy to browse and compare for non-technical audiences.\\[4pt]
+\textbf{NBA Game Simulator} --- Built a Python pipeline that scrapes, cleans, and structures real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation, generating play-by-play logs, box scores, and season standings.
+
+\section*{Skills}
+\textbf{Data \& Analysis:} Microsoft Excel (Pivot Tables, VBA), SQL, Python, R, Tableau, Data Cleaning \& Validation, ETL Pipelines, Supply Chain Process Improvement, Data Visualization, Statistical Analysis\\
+\textbf{Tools \& Collaboration:} Git/GitHub, AI Fluency (Copilot), Remote Collaboration, Written \& Verbal Communication
+
+\end{document}

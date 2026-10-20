@@ -36,6 +36,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - Part-time, temporary engagement (10 hrs/week) with one client
 - Provided supply chain consulting services for a large manufacturing company
 - Streamlined production plans with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90%
+- Assessed risks of delays and built alert systems for the client (per Elijah, Oct 19 2026). Client-facing: worked directly with the client. Tools/details for the alert systems not specified, so do not name a tool for them. Do not say "single click"; the 90% reduction is the only processing-time claim.
 - Location intentionally omitted on resumes. Resume_USA.tex lists 10 hrs/week.
 
 ### Data Detectives — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
