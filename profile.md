@@ -32,11 +32,12 @@ Use for matching a posting's required methods or "evidence of success in quantit
 
 ## Experience
 
-### Minthril — Independent Consultant (Sep 2026 – Present)
+### Minthril — Business Analyst (Part-Time) (Sep 2026 – Present)
 - Part-time, temporary engagement (10 hrs/week) with one client
+- Company (per Elijah, Nov 25 2026): supply chain analytics startup using AI to maximize hidden savings for mid-market manufacturers. Describes Minthril, not something Elijah built; do not claim he built AI.
 - Provided supply chain consulting services for a large manufacturing company
-- Streamlined production plans with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90%
-- Assessed risks of delays and built alert systems for the client (per Elijah, Oct 19 2026). Client-facing: worked directly with the client. Tools/details for the alert systems not specified, so do not name a tool for them. Do not say "single click"; the 90% reduction is the only processing-time claim.
+- Streamlined production plans for a fast-growing business unit with Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90%
+- Built alert systems to identify critical material shortages (per Elijah, Nov 25 2026); earlier note: also assessed risks of delays (Oct 19 2026). Client-facing: worked directly with the client. Tools/details for the alert systems not specified, so do not name a tool for them. Do not say "single click"; the 90% reduction is the only processing-time claim.
 - Location intentionally omitted on resumes. Resume_USA.tex lists 10 hrs/week.
 
 ### Data Detectives — Data Analytics Intern (Jun 2025 – Aug 2025, 10 hrs/week)
@@ -64,6 +65,8 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - **NBA Game Simulator** — Python pipeline that scrapes and processes real NBA player and team stats spanning the last 40 seasons to drive a dice-based basketball simulation; simulates single games and full 82-game seasons with play-by-play logs, box scores, standings, and playoff seeding; live demo. Started as a pen-and-paper dice game at age 8–9.
 - **Quick Draw** — full-stack tournament bracket tool (Next.js, TypeScript, Supabase) supporting single-elimination, double-elimination, round robin, and swiss formats; live demo.
 - **CFB Dynasty Sim** — ported a spreadsheet-based college football recruiting and aging engine into a web app (TypeScript, Next.js); supports a 72-team league and a 144-team mega-league with save slots; live demo.
+- **AI-assisted job search tools** (per Elijah, Oct 23 2026) — personal projects built with Claude Code: tools to find job matches and tailor his resume. Most of his projects were built with the help of Claude Code. No API/LLM-app, GPT, or prompt-engineering claim beyond this; do not say he built an LLM application from scratch or name models/APIs.
+- **Ticket to Ride AI** (Nov 2026; github.com/eang0521/ttr-ai, public, MIT) — browser-playable Ticket to Ride (2–5 players) with five levels of computer opponents (rule-based Easy/Medium/Hard, an Expert policy/value network, a play-time-search Master bot) and a custom "Mega Game" mode. Tech: Python, PyTorch, NumPy, JavaScript, D3, multiprocessing. Elijah designed and directed the project and its experiments; built with Claude Code as AI coding assistant (always say so). Facts, use only these numbers: headless rules engine with 34 unit tests; Hard beats Medium about 86%; Expert (imitation of Hard, then PPO with V-trace self-play, about 900,000 games, laptop CPU, no GPU) wins about 75% of 2-player games vs Hard; Master search (successive halving) cut worst-case move time from 10–19 s to about 3 s and wins about 74–76% vs Expert alone; value probe found the Longest Route bonus rated at only about +0.07 win probability though it decides about 30% of games, fixed with longest-path features; graph neural network (784k parameters, DAgger on about 600,000 positions) best so far 81.5% vs Hard in 2-player and 54% in Mega Games (Mega opponent unconfirmed, so omit the 54%). Weakness (4-player: 11% vs three Hard bots): not for resumes. Skills (PyTorch, RL, etc.) not yet approved for the Skills list. Formats drafted Nov 10 2026: 5-bullet `\entryhl`, one-sentence, one-liner.
 - **Space Trader** — online version of a board game designed at age 14 (Next.js). Low priority for professional resumes.
 - **Pokémon Roll & Roam** — roll-and-move board game for the web (JavaScript). Low priority for professional resumes.
 
@@ -71,7 +74,7 @@ Use for matching a posting's required methods or "evidence of success in quantit
 - Languages/tools: Python, R, SQL, Microsoft Excel (pivot tables, VBA macros, dashboards), Word, PowerPoint, Copilot, Tableau, Git/GitHub
 - Web: React, React Native, Next.js, TypeScript, MySQL, Supabase
 - Methods: statistical analysis, probability theory, linear models, Monte Carlo simulation, regression/random forest modeling, data cleaning and validation, ETL pipelines, synthetic data generation (SDV), data visualization
-- General: AI fluency (uses AI tools such as Copilot), remote collaboration, written and verbal communication
+- General: AI fluency (uses AI tools such as Copilot and Claude Code), AI-assisted development with Claude Code (personal projects), remote collaboration, written and verbal communication
 
 ## Not claimed (gaps — never add without Elijah's confirmation)
 - SAS, psychometrics / item or test analysis, C#, Java

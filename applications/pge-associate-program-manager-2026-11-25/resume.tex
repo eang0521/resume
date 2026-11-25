@@ -1,0 +1,88 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[top=0.45in,bottom=0.45in,left=0.65in,right=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+
+\definecolor{accent}{HTML}{2774AE}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\setmainfont{Arial}
+\pagestyle{empty}
+
+\titleformat{\section}{\normalfont\fontsize{12}{14}\bfseries\scshape\color{black}}{}{0em}{}[\vspace{0pt}\color{accent}{\titlerule[2pt]}\vspace{2pt}]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+
+\newcommand{\entry}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\newcommand{\entryhl}[3]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright\textbf{\color{accent}#1}\end{minipage}%
+  \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft\small\color{gray}#2\end{minipage}\\
+  \textit{#3}\par\vspace{2pt}
+}
+
+\setlist[itemize]{leftmargin=16pt, itemsep=0pt, topsep=1pt}
+
+\begin{document}
+
+\input{../../partials/contact}
+
+\vspace{4pt}
+
+\section*{Education}
+\entry{University of California, Los Angeles}{Sep 2024 -- Mar 2026}{Bachelor of Science, Statistics \& Data Science --- GPA 3.6}
+\small Relevant coursework: Design and Analysis of Experiments, Linear Models, Statistical Models and Data Mining, Monte Carlo Methods, Causality
+
+\section*{Experience}
+
+\entryhl{Minthril}{Sep 2026 -- Present}{Business Analyst (Part-Time)}
+\begin{itemize}
+  \item Supply chain analytics startup using AI to maximize hidden savings for mid-market manufacturers
+  \item Streamlined production plans for a fast-growing business unit with Microsoft Excel pivot tables, VBA macros, and dashboards, cutting processing time by 90\%
+  \item Built alert systems to identify critical material shortages, working directly with the client
+\end{itemize}
+
+\entry{Data Detectives}{Jun 2025 -- Aug 2025}{Data Analytics Intern}
+\begin{itemize}
+  \item Built automated Python pipelines to ingest, clean, validate, and transform Bay Area housing data from multiple sources
+  \item Trained a random forest regression model on the cleaned data to predict home values, using synthetic data to augment training
+\end{itemize}
+
+\entry{Awe \& Reverence}{Jun 2023 -- Aug 2023}{Software Apprentice}
+\begin{itemize}
+  \item Partnered directly with the founder to scope, build, and ship website features on tight timelines
+\end{itemize}
+
+\entry{Rooted Software --- Concord, CA (Hybrid)}{May 2022 -- Aug 2022}{Information Technology Intern}
+\begin{itemize}
+  \item Developed React Native mobile apps for a church with 1,000+ members and configured hardware for a K-8 school with 400+ students
+\end{itemize}
+
+\entry{Chick-fil-A --- Walnut Creek, CA}{Mar 2022 -- Aug 2022}{Front of House}
+\begin{itemize}
+  \item Took and fulfilled orders for 100+ guests per shift, staying accurate and fast while managing multiple orders during high-volume rush periods
+\end{itemize}
+
+\section*{Projects}
+
+\entryhl{City of Berkeley Budget Data}{Tableau}{Interactive dashboards on 2012--2015 municipal budget data}
+\begin{itemize}
+  \item Started with 47,000+ rows of municipal budget data that were hard to browse and compare
+  \item Built interactive Tableau dashboards that organize the data for a general audience
+  \item Condensed the data into 7 simple dashboards that make spending easy to browse and compare
+\end{itemize}
+
+\noindent\textbf{Quick Draw} --- Built a full-stack, database-backed tournament bracket tool with Next.js, TypeScript, and Supabase to organize and run single-elimination, double-elimination, round robin, and swiss format competitions.\\[4pt]
+\textbf{Ticket to Ride AI} --- Designed and directed a browser-playable board game with five levels of computer opponents, built with Claude Code as an AI coding assistant; validated the rules engine with 34 unit tests and measured the bots' strength in head-to-head games.
+
+\section*{Skills}
+\textbf{Skills:} Microsoft Excel (Pivot Tables, VBA, Dashboards), Word, PowerPoint, Copilot, Tableau, Python, SQL, R, Statistical Analysis, Data Cleaning \& Validation, Data Visualization, Git/GitHub, AI Fluency, Written \& Verbal Communication
+
+\end{document}
